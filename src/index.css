@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .btn {
+    @apply rounded-full px-6 py-2 text-sm font-bold bg-blue-400 text-white;
+  }
+  .section {
+    @apply border border-[#e5e7eb] dark:border-gray-700  p-4 dark:bg-main-dark bg-white;
+  }
+  .react {
+    @apply flex items-center  duration-100 cursor-pointer text-gray-400 dark:text-white;
+  }
+}
+
+@media screen(xl) {
+  .side {
+    display: block;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply dark:bg-gray-700;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply dark:bg-[rgb(107,114,128)] bg-[#cccccc]  rounded-[5px] duration-100;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@keyframes .animate-spin {
+  animation: spin-fast 0.65s ease-in-out infinite;
+}
