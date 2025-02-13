@@ -5,9 +5,10 @@ import {
   faCloudMoon,
 } from "@fortawesome/free-solid-svg-icons";
 import Post from "./Post";
+import Btn from "./Btn";
 Post;
 function TimeLine() {
-  function HandleDarkmode() {
+  function HandleDarkmode(): void {
     document.body.classList.toggle("dark");
   }
   return (
@@ -50,7 +51,7 @@ function TimeLine() {
               <FontAwesomeIcon icon={faImage} />
             </li>
           </ul>
-          <button className="btn w-fit">Tweet</button>
+        <Btn style="btn w-fit">Tweet</Btn>
         </div>
       </div>
       {/* End create post  */}

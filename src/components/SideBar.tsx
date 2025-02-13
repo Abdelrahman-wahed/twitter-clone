@@ -1,9 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import Btn from "./Btn";
 
 function SideBar() {
   return (
-    <div className= " md hidden side min-w-[350px]  m-2">
+    <div className=" md hidden side min-w-[350px]  m-2">
       {/* start Search box  */}
       <div className="bg-gray-200 dark:bg-[#253341] rounded-full flex items-center px-4 py-2">
         <FontAwesomeIcon
@@ -60,9 +61,7 @@ function SideBar() {
               <h3 className="bold">Abdo Wahed</h3>
               <p className="text-dark-gray">@abdowaheed</p>
             </div>
-            <button className="btn bg-transparent hover:text-white duration-300 hover:bg-[rgb(96,165,250)]  text-[rgb(96,165,250)] border-[2px] border-[rgb(96,165,250)]">
-              Follow
-            </button>
+            <Btn>Follow</Btn>
           </div>
         </li>
         <li className="px-4 pt-2">
@@ -76,9 +75,7 @@ function SideBar() {
               <h3 className="bold">Abdo Wahed</h3>
               <p className="text-dark-gray">@abdowaheed</p>
             </div>
-            <button className="btn bg-transparent hover:text-white duration-300 hover:bg-[rgb(96,165,250)] text-[rgb(96,165,250)] border-[2px] border-[rgb(96,165,250)]">
-              Follow
-            </button>
+            <Btn >Follow</Btn>
           </div>
         </li>
         <li className="px-4 pt-2">
