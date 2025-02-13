@@ -2,7 +2,7 @@
 # Twitter Clone
 
 <p align="center">
- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/2491px-Logo_of_Twitter.svg.png" width="200"  style="" />
+![](../public/twitter.png)
 </p>
 
 
